@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background: rgb(63, 63, 63);
+}
+.todo{
+    
+    background: rgb(63, 63, 63);
+    width: 1325px;
+
+}
+.menu{
+    background: hotpink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu{
+    color: rgb(202, 61, 0);
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    background: rgb(49, 49, 49);
+    width: 100%;
+    margin:auto
+    
+}
+
+.menu a{
+    color: rgb(202, 61, 0);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+.menu a:hover{
+    background: rgb(158, 52, 2);
+    color: rgb(175, 175, 175)
+}
+.foto img{
+    margin: 1em;
+    height: 25%;
+    width: 25%;
+    border-radius: 50em;
+    border-color:rgb(255, 81, 0);
+    border-style: dashed;
+ }
+ .con{
+   
+    background:rgb(158, 52, 2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+.con nav{
+    width: 60%;
+    max-width: 11000px;
+    background:rgb(158, 52, 2);
+    margin:40px,auto
+
+}
+.con nav ul{
+    list-style: none;
+    position: relative;
+}
+.con nav ul li {
+    display: inline-block;
+}
+.con nav ul li a {
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.con nav ul li a:hover{
+    background-color: rgb(70, 70, 70);}
+.con img{
+    height:35px;
+    width:35px;
+}
+.nom{
+    color:rgb(255, 81, 0);
+    background: black;
+}

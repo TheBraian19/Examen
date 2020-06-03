@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background: rgb(63, 63, 63);
+}
+.todo{
+    
+    background: rgb(63, 63, 63);
+    width: 1325px;
+
+}
+.menu{
+    background: hotpink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu{
+    color: rgb(202, 61, 0);
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    background: rgb(49, 49, 49);
+    width: 100%;
+    margin:auto
+    
+}
+
+.menu a{
+    color: rgb(202, 61, 0);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+.menu a:hover{
+    background: rgb(158, 52, 2);
+    color: rgb(175, 175, 175)
+}
+
+.por{
+ margin:5px;
+ border: 5px solid  rgb(158, 52, 2);
+}
+
+.contenedor{
+    display: flex;
+    width: 90%;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.titu h1{
+ color:orangered
+}
+
+.titu h2{
+    color:orange
+}
+
+.info{
+    height:50px; 
+    width:90%;
+    color:rgb(65, 63, 63);
+    background: gray;
+    margin: 7px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+
